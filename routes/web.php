@@ -15,5 +15,9 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+
 // master : 在18行定义user路由
 Route::resource('admin/user','UserController');
+
+// lisi : 在18行定义goods路由
+Route::resource('admin/goods','GoodsController');
