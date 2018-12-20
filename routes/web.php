@@ -14,3 +14,6 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+// lisi : 在18行定义goods路由
+Route::resource('admin/goods','GoodsController');
