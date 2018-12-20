@@ -14,3 +14,6 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+// master : 在18行定义user路由
+Route::resource('admin/user','UserController');
